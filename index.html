@@ -23,6 +23,7 @@
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Travel guide</title>
   </head>
   <body>
@@ -31,7 +32,7 @@
         <h1>Travel Guide</h1>
       </header>
       <main>
-        <form>
+        <form id="search-form">
           <input
             type="text"
             placeholder="Enter a City"
@@ -44,22 +45,22 @@
         </form>
       </main>
 
-      <div class="container mt-5">
-        <div
-          class="row d-block"
-          id="search-city-info">
+      <div
+        class="container mt-5"
+        id="search-city-info">
+        <div class="row d-block">
           <div class="col-6 mb-3">
             <h2>City, Country</h2>
           </div>
           <div class="col-6">
             <ul class="list-items">
               <li>
-                🕒 Local time 
+                🕒 Local time
                 <p>12:00</p>
               </li>
-              <li>⛅️ Weather </li>
-              <li>🗓️ Events </li>
-              <li>🛍️ Shopping </li>
+              <li>⛅️ Weather</li>
+              <li>🗓️ Events</li>
+              <li>🛍️ Shopping</li>
             </ul>
           </div>
         </div>
