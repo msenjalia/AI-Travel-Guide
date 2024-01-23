@@ -23,7 +23,7 @@ header {
 form {
   display: flex;
 }
-.searchbox {
+.searchBox {
   width: 80%;
   padding: 14px 25px;
   border-radius: 25px;

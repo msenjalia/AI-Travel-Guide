@@ -24,6 +24,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <title>AI Travel guide</title>
   </head>
   <body>
@@ -38,7 +39,7 @@
             placeholder="Enter a City"
             autofocus
             required
-            class="searchbox" />
+            class="searchBox" />
           <input
             type="submit"
             class="submit-btn" />
@@ -47,24 +48,7 @@
 
       <div
         class="container mt-5"
-        id="search-city-info">
-        <div class="row d-block">
-          <div class="col-6 mb-3">
-            <h2>City, Country</h2>
-          </div>
-          <div class="col-6">
-            <ul class="list-items">
-              <li>
-                🕒 Local time
-                <p>12:00</p>
-              </li>
-              <li>⛅️ Weather</li>
-              <li>🗓️ Events</li>
-              <li>🛍️ Shopping</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+        id="search-city-info"></div>
 
       <footer>
         <a
