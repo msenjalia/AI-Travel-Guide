@@ -1,0 +1,62 @@
+:root {
+  --brand-color-primary: crimson;
+  --brand-color-secondary: #290300;
+  --brand-color-third: #c60790;
+  --font-family-heading: "DM Serif Display", serif;
+  --font-family-primary: "Playfair Display", serif;
+  --box-shadow: ;
+}
+
+body .container {
+  display: block;
+  text-align: center;
+  margin: 120px auto;
+  max-width: 600px;
+  font-family: var(--font-family-primary);
+  color: var(--brand-color-primary);
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+}
+.searchbox {
+  width: 80%;
+  padding: 14px 25px;
+  border-radius: 25px;
+  font-size: 16px;
+  border: 1px solid rgb(119, 117, 117);
+}
+
+.submit-btn {
+  padding: 14px 30px;
+  border-radius: 25px;
+  font-size: 16px;
+  border: none;
+  background-color: var(--brand-color-primary);
+  color: white;
+  box-shadow:  7px 5px 15px rgba(194, 65, 65, 0.2);
+}
+
+#search-city-info {
+  text-align: left;
+}
+
+#search-city-info h2 {
+  color: var(--brand-color-primary);
+}
+
+.list-items li {
+  font-size: 22px;
+  list-style: none;
+  display: block;
+  color: var(--brand-color-secondary);
+}
+
+li p {
+  font-size: 18px;
+  color: var(--brand-color-main);
+}
