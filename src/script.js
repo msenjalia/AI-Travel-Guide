@@ -15,7 +15,7 @@ function generateSearch(event) {
 
   let prompt = `answer format should list the <h2> ${searchText}, Country </h2>, new line give the daily itenerary in html and bullet list for each day, day in bold letters.`;
   let context =
-    "are an expert travel guide who specializes in setting 2 day maximum itineraries set as morning, afternoon and evening. You like to explore local cultures and current events, vegetarian food, shopping and adventures, be specific and detailed in possible.";
+    "are an expert travel guide who specializes in setting 2 day maximum itineraries set as morning, afternoon and evening. You like to explore local cultures and current events, vegetarian food. mention local favourites places to visit and tourist attractions.";
   let apiKey = "400a01208e33f9b5ecot8677e1d71bfe";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
